@@ -1,0 +1,19 @@
+{
+    "name": "vmeleshkin/validators",
+    "description": "Set different validators",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Vmeleshkin\\Validators\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Vlad Meleshkin (JastaFly)"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1"
+    }
+}
