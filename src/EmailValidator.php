@@ -2,7 +2,7 @@
 
 namespace VMeleshkin\Validators;
 
-class MailValidator
+class EmailValidator
 {
     private $emailValidRegExp = '/^(([\wА-Яа-я]{1,})@([\wА-Яа-я]{1,}\.)+[A-Za-zА-Яа-я]{2,})$/ui';
     private $emailAddress;
